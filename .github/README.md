@@ -1,6 +1,6 @@
 # rayfiyo.github.io
 This repository is my website.
-thank you.
+https://rayfiyo.github.io
 
 # for me
-There is this file in .github
+This file is in .github
