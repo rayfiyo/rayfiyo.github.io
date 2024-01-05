@@ -1,7 +1,4 @@
-# Hello world!
-My first public web page.
-
-# profile
+# Links
 * [Twitter🦜](https://twitter.com/rayfiyo)
 * [GitHub🐱](https://github.com/rayfiyo)
 * [Bluesky🟦@SNS](https://bsky.app/profile/rayfiyo.bsky.social)
