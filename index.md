@@ -1,4 +1,9 @@
-# Links
+---
+layout: default
+title: My Links
+---
+
+<!-- # Links -->
 * [Twitter🦜](https://twitter.com/rayfiyo)
 * [GitHub🐱](https://github.com/rayfiyo)
 * [Bluesky🟦@SNS](https://bsky.app/profile/rayfiyo.bsky.social)
