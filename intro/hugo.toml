@@ -1,0 +1,123 @@
+baseURL = "http://www.example.com"
+title = "rayfiyo"
+theme = "hugo-coder"
+languageCode = "ja"
+defaultContentLanguage = "en"
+paginate = 6 # ?
+enableEmoji = true
+
+[markup.highlight]
+noClasses = false
+
+[params]
+author = "rayfiyo"
+description = "rayfiyo's personal website"
+keywords = "personal,self-introduction"
+info = ["student"]
+avatarURL = "images/avatar.jpg"
+dateFormat = "2006-01-02"
+since = 2024
+
+# Right To Left, shift content direction for languagues such as Arabic
+rtl = false
+
+colorScheme = "light" # = "auto"
+
+# Hide the toggle button, along with the associated vertical divider
+hideColorSchemeToggle = false
+# Series see also post count
+maxSeeAlsoItems = 5
+
+# Custom CSS
+customCSS = []
+# Custom SCSS, file path is relative to Hugo's asset folder (default: {your project root}/assets)
+customSCSS = []
+# Custom JS
+customJS = []
+# Custom remote JS files
+customRemoteJS = []
+
+[taxonomies]
+category = "categories"
+series = "series"
+tag = "tags"
+author = "authors"
+
+[[params.social]]
+name = "Github"
+icon = "fa fa-2x fa-github"
+weight = 1
+url = "https://github.com/rayfiyo/"
+
+[[params.social]]
+name = "Twitter"
+icon = "fa fa-2x fa-twitter"
+weight = 2
+url = "https://twitter.com/rayfiyo/"
+
+#[[params.social]]
+#name = "Medium"
+#icon = "fa fa-2x fa-medium"
+#weight = 4
+#url = "https://medium.com/@johndoe"
+
+#[[params.social]]
+#name = "RSS"
+#icon = "fa fa-2x fa-rss"
+#weight = 5
+#url = "https://myhugosite.com/index.xml"
+#rel = "alternate"
+#type = "application/rss+xml"
+
+[languages.en]
+languageName = ":ja:"
+
+#[[languages.en.menu.main]]
+#name = "About"
+#weight = 1
+#url = "about/"
+
+#[[languages.en.menu.main]]
+#name = "Blog"
+#weight = 2
+#url = "posts/"
+
+#[[languages.en.menu.main]]
+#name = "Projects"
+#weight = 3
+#url = "projects/"
+
+#[[languages.en.menu.main]]
+#name = "Contact me"
+#weight = 5
+#url = "contact/"
+
+#[languages.pt-br]
+#languageName = ":brazil:"
+#title = "rayfiyo"
+
+[languages.pt-br.params]
+author = "れいふぃよ"
+info = "よわよわ学生"
+description = "rayfiyoの自己紹介ページ"
+keywords = "個人ページ,自己紹介"
+
+#[[languages.pt-br.menu.main]]
+#name = "詳しく"
+#weight = 1
+#url = "about/"
+
+#[[languages.pt-br.menu.main]]
+#name = "ブログ"
+#weight = 2
+#url = "posts/"
+
+#[[languages.pt-br.menu.main]]
+#name = "プロジェクト"
+#weight = 3
+#url = "projects/"
+
+#[[languages.pt-br.menu.main]]
+#name = "コンタクト"
+#weight = 5
+#rl = "contact/"
