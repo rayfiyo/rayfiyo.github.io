@@ -5,5 +5,6 @@ https://rayfiyo.github.io
 # Special thanks
 * https://github.com/sindresorhus/github-markdown-css
 
-# for me
-This file is in .github
+# memo
+
+* ```backup.tar.gz``` は hugo をなんとなく使おうとして挫折したときのディレクトリを圧縮したもの
