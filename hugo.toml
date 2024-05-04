@@ -55,7 +55,7 @@ disableKinds = ["taxonomy", "term"]
     # { whatsapp = "https://wa.me/phone-number" },
     { x = "https://x.com/rayfiyo" },
     # { youtube = "https://youtube.com/rayfiyo" },
-    { link = { href = "https://hackermeshi.com/profiles/1650", text = "ハッカー飯" } },
+    { hackermeshi = { href = "https://hackermeshi.com/profiles/1650", text = "ハッカー飯" } },
     { zenn = { href = "https://zenn.dev/rayfiyo", text = "Zenn" } },
     { qiita = { href = "https://qiita.com/rayfiyo", text = "Qiita" } },
   ]
