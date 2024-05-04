@@ -13,19 +13,26 @@ disableKinds = ["taxonomy", "term"]
   image = "img/icon.jpeg"  # path relative to static directory
 
   links = [
+    { bluesky = "https://bsky.app/profile/did:plc:ronxumipfy4ct5y22tmqtkh7" },
+    { discord = "https://discord.gg/gNxjETM4XX" },
+    { github = "https://github.com/rayfiyo" },
+    { qiita = { href = "https://qiita.com/rayfiyo", text = "Qiita" } },
+    { x = "https://x.com/rayfiyo" },
+    { zenn = { href = "https://zenn.dev/rayfiyo", text = "Zenn" } },
+    { hackermeshi = { href = "https://hackermeshi.com/profiles/1650", text = "ハッカー飯" } },
     # { email = "mailto:hello@your_domain.com" },
     # { amazon = "https://www.amazon.com/hz/wishlist/ls/wishlist-id" },
     # { apple = "https://www.apple.com" },
     # { bandcamp = "https://rayfiyo.bandcamp.com" },
-    { bluesky = "https://bsky.app/profile/did:plc:ronxumipfy4ct5y22tmqtkh7" },
+    # bluesky
     # { codepen = "https://codepen.io/rayfiyo" },
     # { dev = "https://dev.to/rayfiyo" },
-    { discord = "https://discord.gg/gNxjETM4XX" },
+    # discord
     # { dribbble = "https://dribbble.com/rayfiyo" },
     # { facebook = "https://facebook.com/rayfiyo" },
     # { flickr = "https://www.flickr.com/photos/rayfiyo/" },
     # { foursquare = "https://foursquare.com/rayfiyo" },
-    { github = "https://github.com/rayfiyo" },
+    # github
     # { gitlab = "https://gitlab.com/rayfiyo" },
     # { google = "https://www.google.com/" },
     # { instagram = "https://instagram.com/rayfiyo" },
@@ -53,11 +60,8 @@ disableKinds = ["taxonomy", "term"]
     # { twitch = "https://twitch.tv/rayfiyo" },
     # { twitter = "https://twitter.com/rayfiyo" },
     # { whatsapp = "https://wa.me/phone-number" },
-    { x = "https://x.com/rayfiyo" },
+    # x
     # { youtube = "https://youtube.com/rayfiyo" },
-    { hackermeshi = { href = "https://hackermeshi.com/profiles/1650", text = "ハッカー飯" } },
-    { zenn = { href = "https://zenn.dev/rayfiyo", text = "Zenn" } },
-    { qiita = { href = "https://qiita.com/rayfiyo", text = "Qiita" } },
   ]
 
 [params.author.en]
