@@ -1,0 +1,69 @@
+baseURL = "https://example.org/"
+languageCode = "ja"
+defaultContentLanguage = "en"
+title = "rayfiyo"
+# copyright = "Copy, _right?_ :thinking_face:"
+
+enableEmoji = true
+disableKinds = ["taxonomy", "term"]
+
+[params.author]
+  name = "rayfiyo<br>　"
+  headline = "考えること と Gopherくん が好きです！！！ʕ ◔ ϖ ◔ʔ"
+  image = "img/icon.jpeg"  # path relative to static directory
+
+  links = [
+    # { email = "mailto:hello@your_domain.com" },
+    # { amazon = "https://www.amazon.com/hz/wishlist/ls/wishlist-id" },
+    # { apple = "https://www.apple.com" },
+    # { bandcamp = "https://rayfiyo.bandcamp.com" },
+    { bluesky = "https://bsky.app/profile/did:plc:ronxumipfy4ct5y22tmqtkh7" },
+    # { codepen = "https://codepen.io/rayfiyo" },
+    # { dev = "https://dev.to/rayfiyo" },
+    { discord = "https://discord.gg/gNxjETM4XX" },
+    # { dribbble = "https://dribbble.com/rayfiyo" },
+    # { facebook = "https://facebook.com/rayfiyo" },
+    # { flickr = "https://www.flickr.com/photos/rayfiyo/" },
+    # { foursquare = "https://foursquare.com/rayfiyo" },
+    { github = "https://github.com/rayfiyo" },
+    # { gitlab = "https://gitlab.com/rayfiyo" },
+    # { google = "https://www.google.com/" },
+    # { instagram = "https://instagram.com/rayfiyo" },
+    # { keybase = "https://keybase.io/rayfiyo" },
+    # { kickstarter = "https://www.kickstarter.com/profile/rayfiyo" },
+    # { lastfm = "https://last.fm/user/rayfiyo" },
+    # { linkedin = "https://linkedin.com/in/rayfiyo" },
+    # { mastodon = "https://mastodon.instance/@rayfiyo" },
+    # { medium = "https://medium.com/rayfiyo" },
+    # { microsoft = "https://www.microsoft.com/" },
+    # { patreon = "https://www.patreon.com/rayfiyo" },
+    # { pinterest = "https://pinterest.com/rayfiyo" },
+    # { reddit = "https://reddit.com/user/rayfiyo" },
+    # { slack = "https://workspace.url/team/userid" },
+    # { snapchat = "https://snapchat.com/add/rayfiyo" },
+    # { soundcloud = "https://soundcloud.com/rayfiyo" },
+    # { spotify = "https://spotify.com/user/rayfiyo" },
+    # { stack-exchange = "https://stackexchange.com/users/userid/rayfiyo" },
+    # { stack-overflow = "https://stackoverflow.com/users/userid/rayfiyo" },
+    # { steam = "https://steamcommunity.com/profiles/userid" },
+    # { telegram = "https://t.me/rayfiyo" },
+    # { threads = "https://threads.com/rayfiyo" },
+    # { tiktok = "https://tiktok.com/@rayfiyo" },
+    # { tumblr = "https://rayfiyo.tumblr.com" },
+    # { twitch = "https://twitch.tv/rayfiyo" },
+    # { twitter = "https://twitter.com/rayfiyo" },
+    # { whatsapp = "https://wa.me/phone-number" },
+    { x = "https://x.com/rayfiyo" },
+    # { youtube = "https://youtube.com/rayfiyo" },
+    { link = { href = "https://hackermeshi.com/profiles/1650", text = "ハッカー飯" } },
+    { zenn = { href = "https://zenn.dev/rayfiyo", text = "Zenn" } },
+    { qiita = { href = "https://qiita.com/rayfiyo", text = "Qiita" } },
+  ]
+
+[params.author.en]
+  headline = "I like thinking and The Go gopher ʕ ◔ ϖ ◔ʔ"
+
+[module]
+  [module.hugoVersion]
+    extended = false
+    min = "0.86.1"
