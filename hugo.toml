@@ -1,25 +1,29 @@
-baseURL = "https://rayfiyo.github.io"
-languageCode = "ja"
-defaultContentLanguage = "en"
-title = "rayfiyo"
-# copyright = "Copy, _right?_ :thinking_face:"
+# thx: https://github.com/jpanther/lynx
 
+baseURL = "https://rayfiyo.github.io"
+copyright = "Copy, _right?_ :thinking_face:"
+defaultContentLanguage = "en"
+hasCJKLanguage = true
 enableEmoji = true
-disableKinds = ["taxonomy", "term"]
+languageCode = "ja"
+title = "rayfiyo"
 
 [params.author]
   name = "rayfiyo<br>　"
   headline = "考えること と Gopherくん が好きです！！！ʕ ◔ ϖ ◔ʔ"
-  image = "img/icon.jpeg"  # path relative to static directory
+  image = "img/icon.jpeg"
 
   links = [
-    { bluesky = "https://bsky.app/profile/did:plc:ronxumipfy4ct5y22tmqtkh7" },
-    { discord = "https://discord.gg/gNxjETM4XX" },
+    # icon = "" を使うことで assets/icons のアイコンを明示的に指定可能
     { github = "https://github.com/rayfiyo" },
-    { qiita = { href = "https://qiita.com/rayfiyo", text = "Qiita" } },
-    { x = "https://x.com/rayfiyo" },
     { zenn = { href = "https://zenn.dev/rayfiyo", text = "Zenn" } },
+    { discord = "https://discord.com/invite/6BvQyYms" },
+    { bluesky = "https://bsky.app/profile/did:plc:ronxumipfy4ct5y22tmqtkh7" },
+    { twitter = "https://twitter.com/rayfiyo" },
+    { x = "https://x.com/rayfiyo" },
+    { qiita = { href = "https://qiita.com/rayfiyo", text = "Qiita" } },
     { hackermeshi = { href = "https://hackermeshi.com/profiles/1650", text = "ハッカー飯" } },
+    { note = { href = "https://note.com/rayfiyo", text = "note" } },
     # { email = "mailto:hello@your_domain.com" },
     # { amazon = "https://www.amazon.com/hz/wishlist/ls/wishlist-id" },
     # { apple = "https://www.apple.com" },
