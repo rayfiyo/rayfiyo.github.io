@@ -1,13 +1,12 @@
 # thx: https://github.com/jpanther/lynx
 
 baseURL = "https://rayfiyo.github.io"
-languageCode = "ja"
-defaultContentLanguage = "en"
-title = "rayfiyo"
 copyright = "Copy, _right?_ :thinking_face:"
-
+defaultContentLanguage = "en"
+hasCJKLanguage = true
 enableEmoji = true
-disableKinds = ["taxonomy", "term"]
+languageCode = "ja"
+title = "rayfiyo"
 
 [params.author]
   name = "rayfiyo<br>　"
