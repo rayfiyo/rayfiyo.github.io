@@ -11,7 +11,7 @@ title = "rayfiyo"
 [params.author]
   name = "rayfiyo<br>　"
   headline = "考えること と Gopherくん が好きです！！！ʕ ◔ ϖ ◔ʔ"
-  image = "img/icon.jpeg"  # static ディレクトリの相対パス
+  image = "img/icon.jpeg"
 
   links = [
     # icon = "" を使うことで assets/icons のアイコンを明示的に指定可能
