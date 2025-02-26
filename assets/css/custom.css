@@ -21,5 +21,8 @@
 
 body {
   background-color: #faebd7; /* antiquewhite */
-  color: #333;
+}
+
+.text-xl {
+  color: #66a;
 }
