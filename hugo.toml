@@ -4,11 +4,11 @@
 baseURL = "https://rayfiyo.github.io"
 copyright = "Copy, _right?_ :thinking_face:"
 defaultContentLanguage = "en"
-hasCJKLanguage = true
+disableKinds = ["taxonomy", "term", "RSS", "sitemap"]
 enableEmoji = true
+hasCJKLanguage = true
 languageCode = "ja"
 title = "rayfiyo"
-disableKinds = ["taxonomy", "term", "RSS", "sitemap"]
 
 
 [params.author]
