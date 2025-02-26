@@ -17,28 +17,12 @@
   background: #fff;
 }
 
-/* 以下背景色の変更など */
+/* 全体のCSS */
 
-.dark\:bg-neutral-800 {
-  background-color: #191970;
+body {
+  background-color: #faebd7; /* antiquewhite */
 }
 
-.bg-neutral-800 {
-  background-color: #191970;
-}
-
-.text-neutral-400 {
-  color: #fff;
-}
-
-.text-neutral-500 {
-  color: #fff;
-}
-
-.text-neutral-800 {
-  color: #fff;
-}
-
-.text-neutral-900 {
-  color: #fff;
+.text-xl {
+  color: #66a;
 }
