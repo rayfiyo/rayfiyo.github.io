@@ -8,10 +8,8 @@ hasCJKLanguage = true
 enableEmoji = true
 languageCode = "ja"
 title = "rayfiyo"
+disableKinds = ["taxonomy", "term", "RSS", "sitemap"]
 
-[taxonomies]
-  tag = ""
-  category = ""
 
 [params.author]
   name = "rayfiyo<br>　"
