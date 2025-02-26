@@ -70,7 +70,7 @@ module.exports = {
       emoji: "➕️",
       value: "add",
     },
-    del: 
+    del: {
       description:
         "🗑️ファイルやリソース単体の削除（リファクタや機能修正でもない）",
       emoji: "🗑️",
