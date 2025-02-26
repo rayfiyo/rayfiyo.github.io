@@ -1,4 +1,5 @@
 # thx: https://github.com/jpanther/lynx
+# CSS は assets/css/custom.css
 
 baseURL = "https://rayfiyo.github.io"
 copyright = "Copy, _right?_ :thinking_face:"
